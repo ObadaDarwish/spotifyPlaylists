@@ -1,0 +1,12 @@
+.cardWrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  .card {
+    width: 500px;
+    margin: 5px 0;
+  }
+  .media {
+    height: 140px;
+  }
+}
