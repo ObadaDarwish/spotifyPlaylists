@@ -17,7 +17,6 @@ const Playlists = (props) => {
     }, []);
     const handleScroll = () => {
         if (Math.ceil(window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            console.log('page incremented', PlayListsState.page);
             if (PlayListsState.page <= 3)
                 PlayListsState.incrementPage();
         }

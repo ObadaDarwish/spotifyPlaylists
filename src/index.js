@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import PlayLists from './models/playlists';
 import {Provider} from 'mobx-react';
-// import {Provider} from './context/context'
 import {onPatch} from "mobx-state-tree";
 import makeInspectable from "mobx-devtools-mst";
 

@@ -8,7 +8,7 @@ const PlayLists = types.model('PlayLists', {
     tracks: types.optional(types.array(Track), [])
 }).actions(self => (
     {
-        concatItems(items) {
+        addList(items) {
             self.list = self.list.concat(items);
         },
         incrementPage() {

@@ -17,7 +17,7 @@ const UseFetchPlaylists = (state, page) => {
                 const {playlists} = fetchPlaylists.data;
                 let items = playlists.items.map(item => getItem(item));
                 if (!abort)
-                    state.concatItems(items);
+                    state.addList(items);
             }
             catch (e) {
                 setError(e.response.data.error.message)
