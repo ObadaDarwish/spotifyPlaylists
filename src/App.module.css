@@ -1,0 +1,11 @@
+.cardWrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+  .cardWrapper .card {
+    width: 500px;
+    margin: 5px 0; }
+  .cardWrapper .media {
+    height: 140px; }
+
+/*# sourceMappingURL=App.module.css.map */
